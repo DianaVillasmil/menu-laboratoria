@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+	body {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	font-family: "Arial", sans-serif
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li {
+	background-color: #db7878;
+	color: white;
+	padding: 10px 25px;
+	cursor: pointer;
+	list-style:none;
+	border-left: 1px solid black;
+}
+
+.menu li:first-child {
+	border: none;
+}
+
+.menu li:hover {
+	background-color: #fbcece;
+}
+
+
+
